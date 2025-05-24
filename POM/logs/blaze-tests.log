@@ -1,0 +1,31 @@
+2025-05-23 19:57:10 INFO  Tests.TestBase - ✅ ExtentReport initialized at: test-output\ExtentReport.html
+2025-05-23 19:57:10 INFO  Tests.TestBase - ======== Starting Test Setup: launchApp =========
+2025-05-23 19:57:10 INFO  Tests.TestBase - Running in headed (visible) mode.
+2025-05-23 19:57:21 INFO  Tests.TestBase - Navigated to URL: https://www.demoblaze.com/index.html
+2025-05-23 19:57:21 INFO  Tests.TestBase - ======== Test Setup Complete: launchApp =========
+2025-05-23 19:57:21 INFO  Tests.BlazeTest - Initializing page objects
+2025-05-23 19:57:21 INFO  Tests.BlazeTest - Starting test: Invalid login, then valid login
+2025-05-23 19:57:21 INFO  Tests.BlazeTest - Entered username: MeeraNatarajan
+2025-05-23 19:57:22 INFO  Tests.BlazeTest - Entered password.
+2025-05-23 19:57:22 INFO  Tests.BlazeTest - Clicked login button.
+2025-05-23 19:57:23 INFO  Tests.BlazeTest - Alert text after invalid login: Wrong password.
+2025-05-23 19:57:23 INFO  Tests.BlazeTest - Cleared username and password fields.
+2025-05-23 19:57:28 INFO  Tests.BlazeTest - Entered username: MeeraNatarajan
+2025-05-23 19:57:28 INFO  Tests.BlazeTest - Entered password.
+2025-05-23 19:57:28 INFO  Tests.BlazeTest - Clicked login button.
+2025-05-23 19:57:38 INFO  Pages.BlazeLoginPage - Is login successful? true
+2025-05-23 19:57:38 INFO  Tests.BlazeTest - Valid login successful.
+2025-05-23 19:57:38 INFO  Pages.SelectProduct - Selecting product: Samsung galaxy s6
+2025-05-23 19:57:42 INFO  Pages.ViewCart - Clicking 'Add to cart' button
+2025-05-23 19:57:42 INFO  Pages.ViewCart - Waiting for alert
+2025-05-23 19:57:44 INFO  Pages.ViewCart - Alert message received: Product added.
+2025-05-23 19:57:44 INFO  Pages.ViewCart - Alert message verified successfully
+2025-05-23 19:57:44 INFO  Pages.ViewCart - Opening cart
+2025-05-23 19:57:47 INFO  Pages.ViewCart - Clicking 'Place Order' button
+2025-05-23 19:57:47 INFO  Pages.ViewCart - Filling order details
+2025-05-23 19:57:48 INFO  Pages.ViewCart - Confirming purchase
+2025-05-23 19:57:48 INFO  Pages.ViewCart - Checking confirmation message
+2025-05-23 19:57:48 INFO  Pages.ViewCart - Confirmation displayed: true
+2025-05-23 19:57:48 INFO  Tests.BlazeTest - Test completed successfully: invalidThenValidLogin
+2025-05-23 19:57:52 INFO  Tests.TestBase - 🔻 Browser closed
+2025-05-23 19:57:53 INFO  Tests.TestBase - 📄 ExtentReport flushed and saved.
